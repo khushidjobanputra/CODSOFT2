@@ -1,0 +1,162 @@
+body {
+    background-image: url("https://3jhmchag9u341g9qy3uoql31-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/Watercolor-Mountains-T.jpg");
+    background-repeat: no;
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: #1D1E22;
+    opacity: 0.5;
+  }
+  .img1 {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+  }
+  
+  #img-div {
+    position: relative;
+    width: 500px;
+    display: inline-block;
+  }
+  
+  
+  #img-div img {
+    width: 100%;
+    margin-left: 75px;
+    margin-right: auto;
+    display: inline-block;
+  }
+  
+  .top {
+    position: absolute;
+    opacity: 1;
+    transition: all 0.8s ease;
+    display: inline-block;
+  }
+  
+  .top:hover {
+    opacity: 0;
+  } 
+  
+  #main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 900px;
+   background-attachment: scroll;
+   opacity: 1;
+  }
+  
+  #title {
+    text-align: center;
+    color: White;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .head {
+    text-align: center;
+    color: white;
+    padding: 0 5px;
+    font-size: larger;
+  }
+  
+  .box1 {
+    background-color: rgb(0,0,0, 0.90);
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    padding: 1px 0 1px 0;
+  }
+  
+  #tribute-info {
+    background: rgba(0, 0, 0, 0.90);
+    border-radius: 10px;
+    margin: 15px 10px 0 10px;
+    padding: 5%;
+    margin-bottom: 20px;
+  }
+  
+  #img-caption {
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+    margin-left: 150px;
+  }
+  
+  .text {
+    color: white;
+    font-size: large;
+  }
+  
+  span {
+    text-align: center;
+  }
+  
+  span a {
+    color: #00FFFF;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  
+  #gallery img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    /* border-radius: 10px; */
+  }
+  
+  .gallery1 {
+    text-align: center;
+    color: white;
+    font-family: Edu VIC WA NT Beginner;
+  }
+  
+  .image11:hover {
+    transform: scale(1.05);
+  }
+  .image12:hover {
+    transform: scale(1.05);
+  }
+  .image13:hover {
+    transform: scale(1.05);
+  }
+  .image14:hover {
+    transform: scale(1.05);
+  }
+  .image15:hover {
+    transform: scale(1.05);
+  }
+  .image16:hover {
+    transform: scale(1.05);
+  }
+  
+  #footer {
+      background-color: rgb(0,0,0, 0.90);
+      clear: both;
+      position: relative;
+      margin-bottom: -200px;
+    height: 40px;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 180px;
+    line-height: 1-rem;
+    color: white;
+    text-align: center;
+  }
+  
+  #footer a {
+    color: aqua;
+  }
